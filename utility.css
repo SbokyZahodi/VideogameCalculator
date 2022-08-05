@@ -1,0 +1,262 @@
+.utility {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(62, 65, 66);
+    background-color: rgb(38 56 76);
+    padding: 6px;
+    position: absolute;
+    z-index: 1;
+    top: 120px;
+    left: 41px;
+    display: none;
+    filter: drop-shadow(0px 4px 4px rgba(44, 207, 219, 0.25));
+
+}
+
+.utility .search {
+    background-color: rgb(25, 26, 26);
+    border-radius: 0%;
+    width: 220px;
+    height: 35px;
+    color: white;
+}
+
+.utility .close {
+    float: right;
+    height: 35px;
+    width: 50px;
+    text-align: center;
+    border-radius: 0%;
+}
+
+.utility select {
+    background-color: rgb(25, 26, 26);
+    border-radius: 0%;
+    margin-top: 5px;
+}
+
+.utility .optiongroup {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(43 69 96);
+    overflow: auto;
+    width: 270px;
+    height: 240px;
+
+}
+
+.utility .option {
+    padding-top: 5px;
+    color: silver;
+    background-color: rgb(25, 26, 26);
+    cursor: pointer;
+
+}
+
+.utility .option:hover {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+
+}
+
+::-webkit-scrollbar {
+    background-color: silver;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+}
+
+.dopshow {
+    background-color: rgb(38 56 76);
+    height: 182px;
+    width: 415px;
+    color: silver;
+    display: none;
+    position: absolute;
+    filter: drop-shadow(0px 4px 4px rgba(44, 76, 219, 0.25));
+    filter: drop-shadow(0px 4px 50px rgba(44, 76, 219, 0.35));
+    /* border: 1px solid rgba(32, 184, 230, 0.753); */
+    
+}
+
+.dopshow .dops {
+
+    float: left;
+
+    height: 100%;
+    width: 163px;
+}
+
+.remove {
+    float: right;
+    height: 40px;
+    width: 33px;
+    text-align: center;
+    margin-top: 15px;
+    color: red;
+}
+
+.remove:hover {
+    color: white;
+    background-color: rgb(218, 47, 47);
+}
+
+.dops .remove {
+    border: 1px solid red;
+    padding: 7px;
+    margin-right: 5px;
+}
+
+
+.dopshow .dops .section {
+    height: 40px;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 5px;
+    background-color: rgb(25, 26, 26);
+    text-align: center;
+    cursor: pointer;
+    width: 110px;
+    vertical-align: text-bottom;
+    float: left;
+
+
+}
+
+.dopshow .values {
+    float: left;
+    padding-left: 10px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+.dops .help {
+    position: absolute;
+    left: 170px;
+    width: 35px;
+
+}
+
+
+.values .section {
+    background-color: rgb(25, 26, 26);
+    font-size: 14px;
+    margin-top: 10px;
+    height: 35px;
+    width: 186px;
+    cursor: pointer;
+    line-height: 35px;
+}
+
+.section:hover {
+    box-shadow: rgb(50, 84, 202) 0px 0px 5px;
+}
+
+.dopshow .close {
+    float: right;
+    border-radius: 0%;
+    margin: 5px;
+    height: 35px;
+    width: 37px;
+    text-align: center;
+}
+
+
+/* Позиционирование */
+
+#containerBlock {
+    top: 200px;
+}
+
+#firstArtSlot {
+    top: 260px;
+}
+
+#secondArtSlot {
+    top: 320px;
+}
+
+#thirdArtSlot {
+    top: 380px;
+}
+
+#fourArtSlot {
+    top: 440px;
+}
+
+#fiveArtSlot {
+    top: 500px;
+}
+
+#sixArtSlot {
+    top: 560px;
+}
+
+
+
+#firstArt {
+    top: 280px;
+    left: 30px;
+}
+
+#secondArt {
+    top: 340px;
+    left: 30px;
+}
+
+#thirdArt {
+    top: 400px;
+    left: 30px;
+}
+
+#fourArt {
+    top: 460px;
+    left: 30px;
+}
+
+#fiveArt {
+    top: 520px;
+    left: 30px;
+}
+
+#sixArt {
+    top: 580px;
+    left: 30px;
+}
+
+
+
+#firstDopSlot {
+    top: 280px;
+    left: 480px;
+}
+
+#secondDopSlot {
+    top: 340px;
+    left: 480px;
+}
+
+#thirdDopSlot {
+    top: 400px;
+    left: 480px;
+}
+
+#fourDopSlot {
+    top: 460px;
+    left: 480px;
+}
+
+#fiveDopSlot {
+    top: 520px;
+    left: 480px;
+}
+
+#sixDopSlot {
+    top: 580px;
+    left: 480px;
+}

@@ -1,0 +1,907 @@
+@media (max-width: 1296px) {
+    .art-label .art {
+        width: 210px;
+        cursor: pointer;
+    }
+
+    blockwithvalues .value {
+        font-size: 16px;
+        padding-top: 5px;
+    }
+
+    #firstDopSlot {
+        left: 440px;
+    }
+
+    #secondDopSlot {
+        left: 440px;
+    }
+
+    #thirdDopSlot {
+        left: 440px;
+    }
+
+    #fourDopSlot {
+        left: 440px;
+    }
+
+    #fiveDopSlot {
+        left: 440px;
+    }
+
+    #sixDopSlot {
+        left: 440px;
+    }
+
+
+}
+
+
+@media (max-width: 1216px) {
+    .art-label .art {
+        width: 167px;
+        cursor: pointer;
+    }
+
+    blockwithvalues .value {
+        font-size: 15px;
+        padding-top: 5px;
+    }
+
+    #firstDopSlot {
+        left: 398px;
+    }
+
+    #secondDopSlot {
+        left: 398px;
+    }
+
+    #thirdDopSlot {
+        left: 398px;
+    }
+
+    #fourDopSlot {
+        left: 398px;
+    }
+
+    #fiveDopSlot {
+        left: 398px;
+    }
+
+    #sixDopSlot {
+        left: 398px;
+    }
+}
+
+
+@media (max-width: 1130px) {
+    .art-label div {
+        width: 58px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 40px;
+        float: left;
+        margin-left: 20px;
+        cursor: pointer;
+        background-color: rgb(112 135 231 / 16%);
+    }
+
+    blockwithvalues .value {
+        font-size: 13px;
+        padding-top: 5px;
+    }
+}
+
+
+
+@media (max-width: 1082px) {
+    .art-label div {
+        width: 58px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 40px;
+        float: left;
+        margin-left: 7px;
+        cursor: pointer;
+        background-color: rgb(112 135 231 / 16%);
+    }
+
+    #firstDopSlot {
+        left: 372px;
+    }
+
+    #secondDopSlot {
+        left: 372px;
+    }
+
+    #thirdDopSlot {
+        left: 372px;
+    }
+
+    #fourDopSlot {
+        left: 372px;
+    }
+
+    #fiveDopSlot {
+        left: 372px;
+    }
+
+    #sixDopSlot {
+        left: 372px;
+    }
+
+}
+
+
+
+
+@media (max-width: 1000px) {
+
+    body {
+        background-image: url(img/miniBonk.png);
+        background-size: cover;
+
+
+    }
+
+    header .hello {
+        position: absolute;
+        top: 743px;
+        left: 10px;
+    }
+
+
+
+    .grid {
+        display: block;
+        grid-template-columns: 0fr 0fr;
+    }
+   .AD {
+        font-size: 45px;
+        padding-left: 50px;
+        padding-top: 20px;
+        position: absolute;
+        top: -97px;
+    }
+
+    .container {
+        background-color: rgb(112 135 231 / 16%);
+        width: 300px;
+        text-align: center;
+        position: absolute;
+        top: 84px;
+        cursor: pointer;
+    }
+
+
+    #firstArtSlot {
+        top: 140px;
+    }
+
+    #secondArtSlot {
+        top: 200px;
+    }
+
+    #thirdArtSlot {
+        top: 260px;
+    }
+
+    #fourArtSlot {
+        top: 320px;
+    }
+
+    #fiveArtSlot {
+        top: 380px;
+    }
+
+    #sixArtSlot {
+        top: 440px;
+    }
+
+    #firstArt {
+        top: 160px;
+        left: 15px;
+    }
+
+    #secondArt {
+        top: 220px;
+        left: 15px;
+    }
+
+    #thirdArt {
+        top: 280px;
+        left: 15px;
+    }
+
+    #fourArt {
+        top: 340px;
+        left: 15px;
+    }
+
+    #fiveArt {
+        top: 400px;
+        left: 15px;
+    }
+
+    #sixArt {
+        top: 460px;
+        left: 15px;
+    }
+
+    #firstDopSlot {
+        left: 372px;
+        top: 160px;
+    }
+
+    #secondDopSlot {
+        left: 372px;
+        top: 220px;
+    }
+
+    #thirdDopSlot {
+        left: 372px;
+        top: 280px;
+    }
+
+    #fourDopSlot {
+        left: 372px;
+        top: 340px;
+    }
+
+    #fiveDopSlot {
+        left: 372px;
+        top: 400px;
+    }
+
+    #sixDopSlot {
+        left: 372px;
+        top: 460px;
+    }
+
+    blockwithvalues .value {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+
+
+
+    .utility {
+        height: 300px;
+        width: 300px;
+        background-color: rgb(38 56 76);
+        padding: 6px;
+        position: absolute;
+        z-index: 1;
+        top: 22px;
+        left: 41px;
+        display: none;
+        filter: drop-shadow(0px 4px 4px rgba(44, 207, 219, 0.25));
+    }
+
+    #containerBlock {
+        top: 85px;
+    }
+
+
+}
+
+
+
+@media (max-width: 790px) {
+    #firstDopSlot {
+        left: 18px;
+
+    }
+
+    #secondDopSlot {
+        left: 18px;
+
+    }
+
+    #thirdDopSlot {
+        left: 18px;
+
+    }
+
+    #fourDopSlot {
+        left: 18px;
+
+    }
+
+    #fiveDopSlot {
+        left: 18px;
+
+    }
+
+    #sixDopSlot {
+        left: 18px;
+
+    }
+
+    blockwithvalues .value {
+        font-size: 14px;
+        padding-top: 5px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .art-label .art {
+        width: 150px;
+        cursor: pointer;
+    }
+
+    .art-label input {
+        background-color: rgb(112 135 231 / 16%);
+        border-radius: 0%;
+        width: 70px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 40px;
+        float: left;
+        margin-left: 5px;
+    }
+
+    .art-label div {
+        width: 46px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 40px;
+        float: left;
+        margin-left: 7px;
+        cursor: pointer;
+        background-color: rgb(112 135 231 / 16%);
+    }
+
+    blockwithvalues .debuff {
+        background-color: #8080801c;
+        margin: 5px;
+    }
+
+    blockwithvalues .buff {
+        background-color: #8080801c;
+        margin: 5px;
+    }
+
+    .dopshow .dops .section {
+        height: 40px;
+        font-size: 14px;
+        margin-left: 4px;
+        margin-top: 15px;
+        margin-right: 5px;
+        background-color: rgb(25, 26, 26);
+        text-align: center;
+        cursor: pointer;
+        width: 110px;
+        vertical-align: text-bottom;
+        float: left;
+    }
+
+    .remove {
+        float: right;
+        height: 40px;
+        width: 27px;
+        text-align: center;
+        margin-top: 15px;
+        color: red;
+    }
+
+    .dopshow .dops {
+        float: left;
+        height: 100%;
+        width: 151px;
+    }
+
+    .dopshow .dops .section {
+        height: 40px;
+        font-size: 14px;
+        margin-left: 4px;
+        margin-top: 10px;
+        margin-right: 5px;
+        background-color: rgb(25, 26, 26);
+        text-align: center;
+        cursor: pointer;
+        width: 110px;
+        vertical-align: text-bottom;
+        float: left;
+    }
+
+    .dopshow .dops {
+        float: left;
+        height: 100%;
+        width: 151px;
+        margin-top: 10px;
+    }
+
+    .values .section {
+        background-color: rgb(25, 26, 26);
+        font-size: 14px;
+        margin-top: 10px;
+        height: 40px;
+        width: 186px;
+        cursor: pointer;
+        line-height: 35px;
+    }
+
+    .dopshow .values {
+        float: left;
+        padding-left: 10px;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .remove {
+        float: right;
+        height: 40px;
+        width: 27px;
+        text-align: center;
+        margin-top: 10px;
+        color: red;
+    }
+
+    .values .section {
+        background-color: rgb(25, 26, 26);
+        font-size: 14px;
+        margin-top: 10px;
+        height: 40px;
+        width: 150px;
+        cursor: pointer;
+        line-height: 18px;
+    }
+
+    .dopshow .dops .section {
+        height: 40px;
+        font-size: 12px;
+        margin-left: 4px;
+        margin-top: 10px;
+        margin-right: 5px;
+        background-color: rgb(25, 26, 26);
+        text-align: center;
+        cursor: pointer;
+        width: 92px;
+        vertical-align: text-bottom;
+        float: left;
+    }
+
+    .dopshow .dops {
+        float: left;
+        height: 100%;
+        width: 133px;
+        margin-top: 10px;
+    }
+
+    .values .section {
+        background-color: rgb(25, 26, 26);
+        font-size: 12px;
+        margin-top: 10px;
+        height: 40px;
+        width: 110px;
+        cursor: pointer;
+        line-height: 18px;
+    }
+
+    .dopshow {
+        background-color: rgb(38 56 76);
+        height: 182px;
+        width: 302px;
+        color: silver;
+        display: none;
+        position: absolute;
+        filter: drop-shadow(0px 4px 4px rgba(44, 76, 219, 0.25));
+        
+    }
+
+    #firstDopSlot {
+        left: 70px;
+    }
+
+    #secondDopSlot {
+        left: 70px;
+    }
+
+    #thirdDopSlot {
+        left: 70px;
+    }
+
+    #fourDopSlot {
+        left: 70px;
+    }
+
+    #fiveDopSlot {
+        left: 70px;
+    }
+
+    #sixDopSlot {
+        left: 70px;
+    }
+
+    .utility {
+        height: 230px;
+        width: 300px;
+        background-color: rgb(38 56 76);
+        padding: 6px;
+        position: absolute;
+        z-index: 1;
+        top: 22px;
+        left: 9px;
+        display: none;
+        filter: drop-shadow(0px 4px 4px rgba(44, 207, 219, 0.25));
+    }
+
+
+}
+
+
+
+@media (max-width: 480px) {
+
+    header .hello {
+        position: absolute;
+        top: 677px;
+        font-size: 12px;
+        left: 10px;
+    }
+
+
+ .AD {
+        font-size: 32px;
+        padding-left: 9px;
+        padding-top: 30px;
+        position: absolute;
+        top: -97px;
+    }
+
+    .label div {
+        float: left;
+        margin-left: 8px;
+        line-height: 50px;
+    }
+
+    .armor {
+        background-color: rgb(112 135 231 / 16%);
+        width: 230px;
+        font-size: 14px;
+        top: 0px;
+        text-align: center;
+        position: relative;
+        background-color: #8793c51f;
+        filter: drop-shadow(0 px 4 px 4 px rgba(79, 219, 44, 0.25));
+    }
+
+    .container {
+        background-color: rgb(112 135 231 / 16%);
+        width: 230px;
+        font-size: 15px;
+        text-align: center;
+        position: absolute;
+        top: 84px;
+        cursor: pointer;
+    }
+
+    .utility {
+        height: 300px;
+        width: 300px;
+        background-color: rgb(38 56 76);
+        padding: 6px;
+        position: absolute;
+        z-index: 1;
+        top: 22px;
+        left: 9px;
+        display: none;
+        filter: drop-shadow(0px 4px 4px rgba(44, 207, 219, 0.25));
+    }
+}
+
+
+@media (max-width: 430px) {
+    .art-label input {
+        background-color: rgb(112 135 231 / 16%);
+        border-radius: 0%;
+        width: 50px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 40px;
+        float: left;
+        margin-left: 5px;
+    }
+}
+
+
+@media (max-width: 392px) {
+    .art-label .art {
+        width: 126px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+    .art-label {
+        margin-top: 25px;
+        margin-left: 0px;
+        text-align: center;
+        height: 60px;
+        top: 300px;
+        position: absolute;
+    }
+
+    .art-label div {
+        width: 30px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 40px;
+        float: left;
+        margin-left: 7px;
+        cursor: pointer;
+        background-color: rgb(112 135 231 / 16%);
+    }
+
+    #firstArt {
+        left: 7px;
+    }
+
+    #secondArt {
+        left: 7px;
+    }
+
+    #thirdArt {
+        left: 7px;
+    }
+
+    #fourArt {
+        left: 7px;
+    }
+
+    #fiveArt {
+        left: 7px;
+    }
+
+    #sixArt {
+        left: 7px;
+    }
+
+    .dopshow .dops .section {
+        height: 40px;
+        font-size: 14px;
+        margin-left: 4px;
+        margin-top: 15px;
+        margin-right: 5px;
+        background-color: rgb(25, 26, 26);
+        text-align: center;
+        cursor: pointer;
+        width: 110px;
+        vertical-align: text-bottom;
+        float: left;
+    }
+
+    .remove {
+        float: right;
+        height: 40px;
+        width: 27px;
+        text-align: center;
+        margin-top: 15px;
+        color: red;
+    }
+
+    .dopshow .dops {
+        float: left;
+        height: 100%;
+        width: 151px;
+    }
+
+    .dopshow .dops .section {
+        height: 40px;
+        font-size: 14px;
+        margin-left: 4px;
+        margin-top: 10px;
+        margin-right: 5px;
+        background-color: rgb(25, 26, 26);
+        text-align: center;
+        cursor: pointer;
+        width: 110px;
+        vertical-align: text-bottom;
+        float: left;
+    }
+
+    .dopshow .dops {
+        float: left;
+        height: 100%;
+        width: 151px;
+        margin-top: 10px;
+    }
+
+    .values .section {
+        background-color: rgb(25, 26, 26);
+        font-size: 14px;
+        margin-top: 10px;
+        height: 40px;
+        width: 186px;
+        cursor: pointer;
+        line-height: 35px;
+    }
+
+    .dopshow .values {
+        float: left;
+        padding-left: 10px;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .remove {
+        float: right;
+        height: 40px;
+        width: 27px;
+        text-align: center;
+        margin-top: 10px;
+        color: red;
+    }
+
+    .values .section {
+        background-color: rgb(25, 26, 26);
+        font-size: 14px;
+        margin-top: 10px;
+        height: 40px;
+        width: 150px;
+        cursor: pointer;
+        line-height: 18px;
+    }
+
+    .dopshow .dops .section {
+        height: 40px;
+        font-size: 12px;
+        margin-left: 4px;
+        margin-top: 10px;
+        margin-right: 5px;
+        background-color: rgb(25, 26, 26);
+        text-align: center;
+        cursor: pointer;
+        width: 92px;
+        vertical-align: text-bottom;
+        float: left;
+    }
+
+    .dopshow .dops {
+        float: left;
+        height: 100%;
+        width: 133px;
+        margin-top: 10px;
+    }
+
+    .values .section {
+        background-color: rgb(25, 26, 26);
+        font-size: 12px;
+        margin-top: 10px;
+        height: 40px;
+        width: 110px;
+        cursor: pointer;
+        line-height: 18px;
+    }
+
+    .dopshow {
+        background-color: rgb(38 56 76);
+        height: 182px;
+        width: 302px;
+        color: silver;
+        display: none;
+        position: absolute;
+        filter: drop-shadow(0px 4px 4px rgba(44, 76, 219, 0.25));
+        
+    }
+
+    #firstDopSlot {
+        left: 6px;
+    }
+
+    #secondDopSlot {
+        left: 6px;
+    }
+
+    #thirdDopSlot {
+        left: 6px;
+    }
+
+    #fourDopSlot {
+        left: 6px;
+    }
+
+    #fiveDopSlot {
+        left: 6px;
+    }
+
+    #sixDopSlot {
+        left: 6px;
+    }
+
+    .utility {
+        height: 230px;
+        width: 300px;
+        background-color: rgb(38 56 76);
+        padding: 6px;
+        position: absolute;
+        z-index: 1;
+        top: 22px;
+        left: 9px;
+        display: none;
+        filter: drop-shadow(0px 4px 4px rgba(44, 207, 219, 0.25));
+    }
+
+    .utility .optiongroup {
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+
+        overflow: auto;
+        width: 270px;
+        height: 175px;
+    }
+
+    blockwithvalues {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        margin: 0px;
+        display: none;
+        filter: drop-shadow(0px 4px 4px rgba(23, 28, 22, 0.27));
+    }
+
+    .weaponValues .grid {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        margin-top: 20px;
+        font-size: 18px;
+        margin-left: 20px;
+        border-bottom: 1px solid silver;
+    }
+
+    .timetokillproperty .damageToBody {
+        margin: 10px;
+        font-size: 15px;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    blockwithvalues .value {
+        font-size: 12px;
+        padding-top: 5px;
+    }
+
+    .art-label {
+        margin-top: 25px;
+        margin-left: -3px;
+        text-align: center;
+        height: 60px;
+        top: 300px;
+        position: absolute;
+    }
+
+    .art-label .art {
+        width: 120px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+    .label input {
+        width: 52px;
+        height: 40px;
+        margin-left: 3px;
+        background-color: rgb(112 135 231 / 16%);
+        border-radius: 0%;
+    }
+
+ .AD {
+        font-size: 31px;
+        padding-left: 9px;
+        padding-top: 30px;
+        position: absolute;
+        top: -97px;
+    }
+
+    .art-label input {
+        background-color: rgb(112 135 231 / 16%);
+        border-radius: 0%;
+        width: 45px;
+        height: 40px;
+        font-size: 11px;
+        line-height: 40px;
+        float: left;
+        margin-left: 5px;
+    }
+}
