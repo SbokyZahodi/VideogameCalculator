@@ -1,448 +1,339 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
+  <head>
+    <meta name="yandex-verification" content="5058df8b987e0143" />
+    <meta name="description" content="Калькулятор сборок STALCRAFT" />
+    <meta charset="UTF-8" />
 
-<head>
-  <meta name="yandex-verification" content="5058df8b987e0143" />
-  <meta name="description" content="Калькулятор сборок STALCRAFT" />
-  <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Калькулятор</title>
+    <link rel="icon" href="Screenshot_72.png" />
 
-  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-  <title>Калькулятор</title>
-  <link rel="icon" href="Screenshot_72.png">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@3/dark.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9/dist/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="./new.css" />
+    <script defer src="./new.js"></script>
+    <script defer src="./modules/blocks.js"></script>
+    <script defer src="./modules/calculate.js"></script>
+    <script defer src="./modules/value.js"></script>
+    <script defer src="./modules/timetokill.js"></script>
+    <link rel="stylesheet" href="utility.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
 
-  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css' rel='stylesheet'
-    integrity='sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x' crossorigin='anonymous'>
-  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js'
-    integrity='sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4' crossorigin='anonymous'>
-  </script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@3/dark.css">
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9/dist/sweetalert2.min.js"></script>
-  <link rel="stylesheet" href="./new.css">
-  <script defer type="module" src="./new.js"></script>
-  <script defer src="./modules/blocks.js"></script>
-  <script defer type="module" defer src="./modules/calculate.js"></script>
-  <script defer type="module" src="./modules/value.js"></script>
-  <script defer type="module" src="./modules/timetokill.js"></script>
-  <link rel="stylesheet" href="utility.css">
-  <link rel="stylesheet" href="media.css">
-</head>
+  <body>
+    <div class="AD">АДСКИЕ ДРОЧИЛЫ</div>
 
-<body>
+    <header>
+      <h6 class="hello">
+        Разработчик SbokyZahodi (a.k.a SweetLana)
+        <p>Сообщить об ошибке: Актёр из гей порно#8617</p>
+      </h6>
+    </header>
 
-<div class='AD'>АДСКИЕ ДРОЧИЛЫ</div>
-
-  <header>
-    
-    <h6 class="hello">Разработчик SbokyZahodi (a.k.a SweetLana)
-      <p>Сообщить об ошибке: Актёр из гей порно#8617</p>
-    </h6>
-  </header>
-
-
-  <main>
-    <div class="grid">
-      <div id="artefacts">
-        <div class="label">
-          <div class="armor">Выберите броню</div>
-          <div class="container">Выберите контейнер</div>
-          <!-- <select name="" id="" class="version btn">
+    <main>
+      <div class="grid">
+        <div id="artefacts">
+          <div class="label">
+            <div class="armor">Выберите броню</div>
+            <div class="container">Выберите контейнер</div>
+            <!-- <select name="" id="" class="version btn">
             <option value="">Полная</option>
             <option value="">Поношенная</option>
             <option value="">Поврежденная</option>
           </select> -->
-          <input type="number" class="btn" placeholder="LVL">
-        </div>
-
-        <div class="art-label" id="firstArtSlot">
-          <div class="art">Выберите артефакт</div>
-          <input type="number" class="quality btn" placeholder="Кач-во">
-          <input type="number" class="lvl btn" placeholder="LVL">
-          <div class="dop">Доп</div>
-          <div class="delete  ">X</div>
-        </div>
-        <div class="art-label" id="secondArtSlot">
-          <div class="art">Выберите артефакт</div>
-          <input type="number" class="quality btn" placeholder="Кач-во">
-          <input type="number" class="lvl btn" placeholder="LVL">
-          <div class="dop">Доп</div>
-          <div class="delete ">X</div>
-        </div>
-        <div class="art-label" id="thirdArtSlot">
-          <div class="art">Выберите артефакт</div>
-          <input type="number" class="quality btn" placeholder="Кач-во">
-          <input type="number" class="lvl btn" placeholder="LVL">
-          <div class="dop">Доп</div>
-          <div class="delete">X</div>
-        </div>
-        <div class="art-label" id="fourArtSlot">
-          <div class="art">Выберите артефакт</div>
-          <input type="number" class="quality btn" placeholder="Кач-во">
-          <input type="number" class="lvl btn" placeholder="LVL">
-          <div class="dop">Доп</div>
-          <div class="delete ">X</div>
-        </div>
-        <div class="art-label" id="fiveArtSlot">
-          <div class="art">Выберите артефакт</div>
-          <input type="number" class="quality btn" placeholder="Кач-во">
-          <input type="number" class="lvl btn" placeholder="LVL">
-          <div class="dop">Доп</div>
-          <div class="delete ">X</div>
-        </div>
-        <div class="art-label" id="sixArtSlot">
-          <div class="art">Выберите артефакт</div>
-          <input type="number" class="quality btn" placeholder="Кач-во">
-          <input type="number" class="lvl btn" placeholder="LVL">
-          <div class="dop">Доп</div>
-          <div class="delete ">X</div>
-        </div>
-
-
-
-      </div>
-
-      <div id="values">
-        <div class="header">
-          <div class="category" category="first" selected>Свойства</div>
-          <div class="category" category="second">С броней</div>
-          <div class="category" category="third">ТТК</div>
-        </div>
-
-        <!-- <div class="artefacts">
-          <div class="art">Снежинка +114 [15]</div>
-          <div class="art">Снежинка +114 [15]</div>
-          <div class="art">Снежинка +114 [15]</div>
-          <div class="art">Снежинка +114 [15]</div>
-          <div class="art">Снежинка +114 [15]</div>
-          <div class="art">Снежинка +114 [15]</div>
-        </div> -->
-
-        <blockwithvalues>
-          <div class="buff">
-
-          </div>
-          <div class="debuff">
-
-          </div>
-        </blockwithvalues>
-
-
-        <div class="TTK">
-          <div class="privedenka">
-            Ваша приведенка = <privedenkanumber>115</privedenkanumber>, при <input type="number" class="btn"
-              name="бронебойность">% бронебойности
+            <input type="number" class="btn" placeholder="LVL" />
           </div>
 
-          <div class="weaponValues">
-            <div class="grid">
-              <div class="weaponValues">
-                <div class="labels">
-                  <p>Урон оружия:</p>
-                </div>
-                <div class="labels">
-                  <p>Скорострел:</p>
-                </div>
-                <!-- <div class="labels">
-                  <p>Модификатор урона:</p>
-                </div> -->
+          <div class="art-label" id="firstArtSlot">
+            <div class="art">Выберите артефакт</div>
+            <input type="number" class="quality btn" placeholder="Кач-во" />
+            <input type="number" class="lvl btn" placeholder="LVL" />
+            <div class="dop">Доп</div>
+            <div class="delete">X</div>
+          </div>
+          <div class="art-label" id="secondArtSlot">
+            <div class="art">Выберите артефакт</div>
+            <input type="number" class="quality btn" placeholder="Кач-во" />
+            <input type="number" class="lvl btn" placeholder="LVL" />
+            <div class="dop">Доп</div>
+            <div class="delete">X</div>
+          </div>
+          <div class="art-label" id="thirdArtSlot">
+            <div class="art">Выберите артефакт</div>
+            <input type="number" class="quality btn" placeholder="Кач-во" />
+            <input type="number" class="lvl btn" placeholder="LVL" />
+            <div class="dop">Доп</div>
+            <div class="delete">X</div>
+          </div>
+          <div class="art-label" id="fourArtSlot">
+            <div class="art">Выберите артефакт</div>
+            <input type="number" class="quality btn" placeholder="Кач-во" />
+            <input type="number" class="lvl btn" placeholder="LVL" />
+            <div class="dop">Доп</div>
+            <div class="delete">X</div>
+          </div>
+          <div class="art-label" id="fiveArtSlot">
+            <div class="art">Выберите артефакт</div>
+            <input type="number" class="quality btn" placeholder="Кач-во" />
+            <input type="number" class="lvl btn" placeholder="LVL" />
+            <div class="dop">Доп</div>
+            <div class="delete">X</div>
+          </div>
+          <div class="art-label" id="sixArtSlot">
+            <div class="art">Выберите артефакт</div>
+            <input type="number" class="quality btn" placeholder="Кач-во" />
+            <input type="number" class="lvl btn" placeholder="LVL" />
+            <div class="dop">Доп</div>
+            <div class="delete">X</div>
+          </div>
+        </div>
 
-                <div class="labels">
-                  <!-- <p>Антишот на дальней против: </p> -->
-                </div>
-              </div>
-              <div class="weaponproperty">
-                <div class="labels"><input type="text" class="btn" name="урон" value="50"></div>
-                <div class="labels"><input type="text" class="btn" name="скорострельность" value="500"></div>
-                <!-- <div class="labels"><select name="модификатор" id="" class="btn">
-                    <option value="">1.25</option>
-                    <option value="">1.5</option>
-                  </select></div> -->
-                <div class="labels">
-                  <!-- <select name="снайперка" id="antishot" class="btn">
-                    <option value="">СВ-98</option>
-                    <option value="">Alpine-TPG-1</option>
-                    <option value="">McMillan</option>
-                    <option value="">Гаусс-Пушка</option>
-                    <option value="">L96A1</option>
-                    <option value="">L96A1(понош)</option>
-                    <option value="">МЦ-558</option>
-                  </select>
-
-                  <select name="заточка" id="" class="btn">
-                    <option value="">+0</option>
-                    <option value="">+5</option>
-                    <option value="">+10</option>
-                    <option value="">+15</option>
-                  </select> -->
-
-
-
-                  <!-- <antishot> - есть</antishot> -->
-
-
-                </div>
-
-
-
-              </div>
-            </div>
+        <div id="values">
+          <div class="header">
+            <div class="category" category="first" selected>Свойства</div>
+            <div class="category" category="second">С броней</div>
+            <div class="category" category="third">ТТК</div>
           </div>
 
-          <div class="showValues">
-            <div class="timetokillproperty">
+          <blockwithvalues>
+            <div class="buff"></div>
+            <div class="debuff"></div>
+          </blockwithvalues>
 
-              <div class="damageToBody">
-
-                <div class="damageToHeadlabel">
-
-                </div>
-              </div>
-
-              <div class="damageToHead">
-
-              </div>
-
+          <div class="TTK">
+            <div class="privedenka">
+              Ваша приведенка = <privedenkanumber>115</privedenkanumber>, при
+              <input type="number" class="btn" name="бронебойность" />%
+              бронебойности
             </div>
 
+            <div class="weaponValues">
+              <div class="grid">
+                <div class="weaponValues">
+                  <div class="labels">
+                    <p>Урон оружия:</p>
+                  </div>
+                  <div class="labels">
+                    <p>Скорострел:</p>
+                  </div>
+
+                  <div class="labels"></div>
+                </div>
+                <div class="weaponproperty">
+                  <div class="labels">
+                    <input type="text" class="btn" name="урон" value="50" />
+                  </div>
+                  <div class="labels">
+                    <input
+                      type="text"
+                      class="btn"
+                      name="скорострельность"
+                      value="500"
+                    />
+                  </div>
+
+                  <div class="labels"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="showValues">
+              <div class="timetokillproperty">
+                <div class="damageToBody">
+                  <div class="damageToHeadlabel"></div>
+                </div>
+
+                <div class="damageToHead"></div>
+              </div>
+            </div>
+
+            <p class="text-right">*В разработке</p>
           </div>
+        </div>
+      </div>
+    </main>
 
-          <p class="text-right">*В разработке</p>
+    <utility>
+      <div class="utility" id="armorBlock">
+        <input type="text" class="search btn" placeholder="Название..." />
+        <div class="close btn btn-outline-danger">X</div>
+        <div class="optiongroup">
+          <div class="option">SBA TANK</div>
+          <div class="option">ZIVCAS</div>
+          <div class="option">АО-4</div>
+          <div class="option">АО-5</div>
+          <div class="option">АО-6</div>
+          <div class="option">Альбатрос-Лазутчик</div>
+          <div class="option">Альбатрос-Штурмовик</div>
+          <div class="option">Апостол</div>
+          <div class="option">Атлас</div>
+          <div class="option">Гончий</div>
+          <div class="option">Егерь</div>
+          <div class="option">Зверобой</div>
+          <div class="option">Идущий в метели</div>
+          <div class="option">КЗ-4</div>
+          <div class="option">Крысолов</div>
+          <div class="option">Легионер</div>
+          <div class="option">Магнит</div>
+          <div class="option">Модифицированный экзоскелет</div>
+          <div class="option">Ош</div>
+          <div class="option">Пахан</div>
+          <div class="option">Призрачный охотник</div>
+          <div class="option">Ригель</div>
+          <div class="option">СКАТ-9</div>
+          <div class="option">СКАТ-10</div>
+          <div class="option">Тонга</div>
+          <div class="option">Туманный охотник</div>
+          <div class="option">Центурион</div>
+          <div class="option">Центурион (понош)</div>
+          <div class="option">Экзоскелет</div>
+          <div class="option">Экзоскелет "Мул"</div>
+          <div class="option">Экзоскелет "Туз"</div>
+          <div class="option">Экзоскелет "Масть"</div>
+          <div class="option">Экспедиция</div>
+        </div>
+      </div>
+      <div class="utility" id="containerBlock">
+        <input type="text" class="search btn" placeholder="Название..." />
+        <div class="close btn btn-outline-danger">X</div>
+        <div class="optiongroup">
+          <div class="option">Hellboy</div>
+          <div class="option">Берлога-4</div>
+          <div class="option">Берлога-6</div>
+          <div class="option">Вьюк</div>
+          <div class="option">Добытчик</div>
+          <div class="option">КЗС-1-2</div>
+          <div class="option">КЗС-3</div>
+          <div class="option">КЗС-4</div>
+          <div class="option">КЗС-5</div>
+          <div class="option">КСМ</div>
+          <div class="option">Кокон</div>
+          <div class="option">Улей</div>
+          <div class="option">Добытчик</div>
+          <div class="option">Ягдташ</div>
+        </div>
+      </div>
+      <div class="utility" id="firstArt" name="artefactSearch">
+        <input type="text" class="search btn" placeholder="Название..." />
+        <div class="close btn btn-outline-danger">X</div>
+        <div class="optiongroup"></div>
+      </div>
+      <div class="utility" id="secondArt" name="artefactSearch">
+        <input type="text" class="search btn" placeholder="Название..." />
+        <div class="close btn btn-outline-danger">X</div>
+        <div class="optiongroup"></div>
+      </div>
+      <div class="utility" id="thirdArt" name="artefactSearch">
+        <input type="text" class="search btn" placeholder="Название..." />
+        <div class="close btn btn-outline-danger">X</div>
+        <div class="optiongroup"></div>
+      </div>
+      <div class="utility" id="fourArt" name="artefactSearch">
+        <input type="text" class="search btn" placeholder="Название..." />
+        <div class="close btn btn-outline-danger">X</div>
+        <div class="optiongroup"></div>
+      </div>
+      <div class="utility" id="fiveArt" name="artefactSearch">
+        <input type="text" class="search btn" placeholder="Название..." />
+        <div class="close btn btn-outline-danger">X</div>
+        <div class="optiongroup"></div>
+      </div>
+      <div class="utility" id="sixArt" name="artefactSearch">
+        <input type="text" class="search btn" placeholder="Название..." />
+        <div class="close btn btn-outline-danger">X</div>
+        <div class="optiongroup"></div>
+      </div>
 
+      <div class="dopshow" id="firstDopSlot">
+        <div class="dops">
+          <div class="section" data-firstSection="">Доп</div>
+          <div class="remove" data-firstRemove="">X</div>
+          <div class="section" data-secondSection="">Доп</div>
+          <div class="remove" data-secondRemove="">X</div>
+          <div class="section" data-thirdSection="">Доп</div>
+          <div class="remove" data-thirdRemove="">X</div>
         </div>
 
-
-
-
-
+        <!-- <div class="remove">X</div> -->
+        <div class="values"></div>
+        <div class="close btn btn-outline-danger">X</div>
       </div>
-    </div>
-  </main>
+      <div class="dopshow" id="secondDopSlot">
+        <div class="dops">
+          <div class="section" data-firstSection="">Доп</div>
+          <div class="remove" data-firstRemove="">X</div>
+          <div class="section" data-secondSection="">Доп</div>
+          <div class="remove" data-secondRemove="">X</div>
+          <div class="section" data-thirdSection="">Доп</div>
+          <div class="remove" data-thirdRemove="">X</div>
+        </div>
 
-
-  <utility>
-    <div class="utility" id="armorBlock">
-      <input type="text" class="search btn" placeholder="Название...">
-      <div class="close btn btn-outline-danger">X</div>
-      <div class="optiongroup">
-        <div class="option">SBA TANK</div>
-        <div class="option">ZIVCAS</div>
-        <div class="option">АО-4</div>
-        <div class="option">АО-5</div>
-        <div class="option">АО-6</div>
-        <div class="option">Альбатрос-Лазутчик</div>
-        <div class="option">Альбатрос-Штурмовик</div>
-        <div class="option">Апостол</div>
-        <div class="option">Атлас</div>
-        <div class="option">Гончий</div>
-        <div class="option">Егерь</div>
-        <div class="option">Зверобой</div>
-        <div class="option">Идущий в метели</div>
-        <div class="option">КЗ-4</div>
-        <div class="option">Крысолов</div>
-        <div class="option">Легионер</div>
-        <div class="option">Магнит</div>
-        <div class="option">Модифицированный экзоскелет</div>
-        <div class="option">Ош</div>
-        <div class="option">Пахан</div>
-        <div class="option">Призрачный охотник</div>
-        <div class="option">Ригель</div>
-        <div class="option">СКАТ-9</div>
-        <div class="option">СКАТ-10</div>
-        <div class="option">Тонга</div>
-        <div class="option">Туманный охотник</div>
-        <div class="option">Центурион</div>
-        <div class="option">Центурион (понош)</div>
-        <div class="option">Экзоскелет</div>
-        <div class="option">Экзоскелет "Мул"</div>
-        <div class="option">Экзоскелет "Туз"</div>
-        <div class="option">Экзоскелет "Масть"</div>
-        <div class="option">Экспедиция</div>
-
-
+        <div class="values"></div>
+        <div class="close btn btn-outline-danger">X</div>
       </div>
-    </div>
-    <div class="utility" id="containerBlock">
-      <input type="text" class="search btn" placeholder="Название...">
-      <div class="close btn btn-outline-danger">X</div>
-      <div class="optiongroup">
-        <div class="option">Hellboy</div>
-        <div class="option">Берлога-4</div>
-        <div class="option">Берлога-6</div>
-        <div class="option">Вьюк</div>
-        <div class="option">Добытчик</div>
-        <div class="option">КЗС-1-2</div>
-        <div class="option">КЗС-3</div>
-        <div class="option">КЗС-4</div>
-        <div class="option">КЗС-5</div>
-        <div class="option">КСМ</div>
-        <div class="option">Кокон</div>
-        <div class="option">Улей</div>
-        <div class="option">Добытчик</div>
-        <div class="option">Ягдташ</div>
-
+      <div class="dopshow" id="thirdDopSlot">
+        <div class="dops">
+          <div class="section" data-firstSection="">Доп</div>
+          <div class="remove" data-firstRemove="">X</div>
+          <div class="section" data-secondSection="">Доп</div>
+          <div class="remove" data-secondRemove="">X</div>
+          <div class="section" data-thirdSection="">Доп</div>
+          <div class="remove" data-thirdRemove="">X</div>
+        </div>
+        <div class="values"></div>
+        <div class="close btn btn-outline-danger">X</div>
       </div>
-    </div>
-    <div class="utility" id="firstArt" name="artefactSearch">
-      <input type="text" class="search btn" placeholder="Название...">
-      <div class="close btn btn-outline-danger">X</div>
-      <div class="optiongroup">
-
-
+      <div class="dopshow" id="fourDopSlot">
+        <div class="dops">
+          <div class="section" data-firstSection="">Доп</div>
+          <div class="remove" data-firstRemove="">X</div>
+          <div class="section" data-secondSection="">Доп</div>
+          <div class="remove" data-secondRemove="">X</div>
+          <div class="section" data-thirdSection="">Доп</div>
+          <div class="remove" data-thirdRemove="">X</div>
+        </div>
+        <div class="values"></div>
+        <div class="close btn btn-outline-danger">X</div>
       </div>
-    </div>
-    <div class="utility" id="secondArt" name="artefactSearch">
-      <input type="text" class="search btn" placeholder="Название...">
-      <div class="close btn btn-outline-danger">X</div>
-      <div class="optiongroup">
-
-
-
+      <div class="dopshow" id="fiveDopSlot">
+        <div class="dops">
+          <div class="section" data-firstSection="">Доп</div>
+          <div class="remove" data-firstRemove="">X</div>
+          <div class="section" data-secondSection="">Доп</div>
+          <div class="remove" data-secondRemove="">X</div>
+          <div class="section" data-thirdSection="">Доп</div>
+          <div class="remove" data-thirdRemove="">X</div>
+        </div>
+        <div class="values"></div>
+        <div class="close btn btn-outline-danger">X</div>
       </div>
-    </div>
-    <div class="utility" id="thirdArt" name="artefactSearch">
-      <input type="text" class="search btn" placeholder="Название...">
-      <div class="close btn btn-outline-danger">X</div>
-      <div class="optiongroup">
-
-
+      <div class="dopshow" id="sixDopSlot">
+        <div class="dops">
+          <div class="section" data-firstSection="">Доп</div>
+          <div class="remove" data-firstRemove="">X</div>
+          <div class="section" data-secondSection="">Доп</div>
+          <div class="remove" data-secondRemove="">X</div>
+          <div class="section" data-thirdSection="">Доп</div>
+          <div class="remove" data-thirdRemove="">X</div>
+        </div>
+        <div class="values"></div>
+        <div class="close btn btn-outline-danger">X</div>
       </div>
-    </div>
-    <div class="utility" id="fourArt" name="artefactSearch">
-      <input type="text" class="search btn" placeholder="Название...">
-      <div class="close btn btn-outline-danger">X</div>
-      <div class="optiongroup">
-
-
-      </div>
-    </div>
-    <div class="utility" id="fiveArt" name="artefactSearch">
-      <input type="text" class="search btn" placeholder="Название...">
-      <div class="close btn btn-outline-danger">X</div>
-      <div class="optiongroup">
-
-
-      </div>
-    </div>
-    <div class="utility" id="sixArt" name="artefactSearch">
-      <input type="text" class="search btn" placeholder="Название...">
-      <div class="close btn btn-outline-danger">X</div>
-      <div class="optiongroup">
-
-
-      </div>
-    </div>
-
-    <div class="dopshow" id="firstDopSlot">
-      <div class="dops">
-
-        <div class="section" data-firstSection="">Доп</div>
-        <div class="remove" data-firstRemove="">X</div>
-        <div class="section" data-secondSection="">Доп</div>
-        <div class="remove" data-secondRemove="">X</div>
-        <div class="section" data-thirdSection="">Доп</div>
-        <div class="remove" data-thirdRemove="">X</div>
-      </div>
-
-      <!-- <div class="remove">X</div> -->
-      <div class="values">
-
-      </div>
-      <div class="close btn btn-outline-danger">
-        X
-      </div>
-    </div>
-    <div class="dopshow" id="secondDopSlot">
-      <div class="dops">
-        <div class="section" data-firstSection="">Доп</div>
-        <div class="remove" data-firstRemove="">X</div>
-        <div class="section" data-secondSection="">Доп</div>
-        <div class="remove" data-secondRemove="">X</div>
-        <div class="section" data-thirdSection="">Доп</div>
-        <div class="remove" data-thirdRemove="">X</div>
-
-      </div>
-
-      <div class="values">
-
-      </div>
-      <div class="close btn btn-outline-danger">
-        X
-      </div>
-    </div>
-    <div class="dopshow" id="thirdDopSlot">
-      <div class="dops">
-        <div class="section" data-firstSection="">Доп</div>
-        <div class="remove" data-firstRemove="">X</div>
-        <div class="section" data-secondSection="">Доп</div>
-        <div class="remove" data-secondRemove="">X</div>
-        <div class="section" data-thirdSection="">Доп</div>
-        <div class="remove" data-thirdRemove="">X</div>
-
-      </div>
-      <div class="values">
-
-      </div>
-      <div class="close btn btn-outline-danger">
-        X
-      </div>
-    </div>
-    <div class="dopshow" id="fourDopSlot">
-      <div class="dops">
-        <div class="section" data-firstSection="">Доп</div>
-        <div class="remove" data-firstRemove="">X</div>
-        <div class="section" data-secondSection="">Доп</div>
-        <div class="remove" data-secondRemove="">X</div>
-        <div class="section" data-thirdSection="">Доп</div>
-        <div class="remove" data-thirdRemove="">X</div>
-
-      </div>
-      <div class="values">
-
-      </div>
-      <div class="close btn btn-outline-danger">
-        X
-      </div>
-    </div>
-    <div class="dopshow" id="fiveDopSlot">
-      <div class="dops">
-        <div class="section" data-firstSection="">Доп</div>
-        <div class="remove" data-firstRemove="">X</div>
-        <div class="section" data-secondSection="">Доп</div>
-        <div class="remove" data-secondRemove="">X</div>
-        <div class="section" data-thirdSection="">Доп</div>
-        <div class="remove" data-thirdRemove="">X</div>
-
-      </div>
-      <div class="values">
-
-      </div>
-      <div class="close btn btn-outline-danger">
-        X
-      </div>
-    </div>
-    <div class="dopshow" id="sixDopSlot">
-      <div class="dops">
-        <div class="section" data-firstSection="">Доп</div>
-        <div class="remove" data-firstRemove="">X</div>
-        <div class="section" data-secondSection="">Доп</div>
-        <div class="remove" data-secondRemove="">X</div>
-        <div class="section" data-thirdSection="">Доп</div>
-        <div class="remove" data-thirdRemove="">X</div>
-
-      </div>
-      <div class="values">
-
-      </div>
-      <div class="close btn btn-outline-danger">
-        X
-      </div>
-    </div>
-
-
-  </utility>
-
-
-
-
-</body>
-
+    </utility>
+  </body>
 </html>

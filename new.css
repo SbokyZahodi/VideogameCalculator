@@ -1,398 +1,333 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 
 * {
-
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    /* font-size: 20px; */
-    color: #8aa4ff;
-    /* color: rgb(186 201 255); */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #8aa4ff;
 }
 
 body {
-    /* background-color: #18181F; */
-    background-image: url(img/bigBonk.png);
-    background-size: cover;
-    backdrop-filter: blur(5px);
-
-
+  background-image: url(img/bigBonk.png);
+  background-size: cover;
+  backdrop-filter: blur(5px);
 }
 
-/* div {
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-} */
-
-
 .btn {
-    color: rgb(207 213 233);
+  color: rgb(207 213 233);
 }
 
 .btn:hover {
-    color: rgb(255, 255, 255)
+  color: rgb(255, 255, 255);
 }
-
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
+  -webkit-appearance: none;
 }
 
 ::-webkit-input-placeholder {
-    color: rgb(181, 202, 216);
-    opacity: 1;
+  color: rgb(181, 202, 216);
+  opacity: 1;
 }
 
- .AD {
-
-    font-size: 45px;
-    padding-left: 50px;
-    padding-top: 20px;
-    position: absolute;
-
+.AD {
+  font-size: 45px;
+  padding-left: 50px;
+  padding-top: 20px;
+  position: absolute;
 }
 
 header .hello {
-    position: absolute;
-    top: 840px;
-    left: 30px;
+  position: absolute;
+  top: 840px;
+  left: 30px;
 }
-
 
 .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-
 
 #artefacts {
-    background: rgba(199, 191, 191, 0.05);
-    border: 1px solid #3254CA;
-    box-sizing: border-box;
-    margin-top: 100px;
-    height: 800px;
-    border-right: none;
-    box-shadow: 0 0 5px #3254ca;
+  background: rgba(199, 191, 191, 0.05);
+  border: 1px solid #3254ca;
+  box-sizing: border-box;
+  margin-top: 100px;
+  height: 800px;
+  border-right: none;
+  box-shadow: 0 0 5px #3254ca;
 }
-
 
 #values {
-    background: rgba(199, 191, 191, 0.04);
-    border: 1px solid #3254CA;
-    box-sizing: border-box;
-    min-height: 100vh;
-    box-shadow: 0 0 5px #3254ca;
+  background: rgba(199, 191, 191, 0.04);
+  border: 1px solid #3254ca;
+  box-sizing: border-box;
+  min-height: 100vh;
+  box-shadow: 0 0 5px #3254ca;
 }
 
-
 .label {
-    width: 100%;
-    height: 30px;
-    margin-top: 20px;
-    margin-bottom: 70px;
+  width: 100%;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 70px;
 }
 
 .label div {
-    float: left;
-    margin-left: 40px;
-    line-height: 50px;
+  float: left;
+  margin-left: 40px;
+  line-height: 50px;
 }
 
 .armor {
-    background-color: rgb(112 135 231 / 16%);
-    width: 300px;
-    top: 0px;
-    text-align: center;
-    position: relative;
-    background-color: #8793c51f;
-    filter: drop-shadow(0 px 4 px 4 px rgba(79, 219, 44, 0.25));
-
+  background-color: rgb(112 135 231 / 16%);
+  width: 300px;
+  top: 0px;
+  text-align: center;
+  position: relative;
+  background-color: #8793c51f;
+  filter: drop-shadow(0 px 4 px 4 px rgba(79, 219, 44, 0.25));
 }
 
 .armor:hover {
-    cursor: pointer;
-    box-shadow: 0 0 5px #3254ca;
+  cursor: pointer;
+  box-shadow: 0 0 5px #3254ca;
 }
 
-
 .label .version {
-    background-color: #736F6D;
-    border-radius: 0%;
-    margin-left: 10px;
+  background-color: #736f6d;
+  border-radius: 0%;
+  margin-left: 10px;
 }
 
 .label input {
-    width: 60px;
-    height: 40px;
-    margin-left: 10px;
-    background-color: rgb(112 135 231 / 16%);
-    border-radius: 0%;
+  width: 60px;
+  height: 40px;
+  margin-left: 10px;
+  background-color: rgb(112 135 231 / 16%);
+  border-radius: 0%;
 }
 
 .container {
-    background-color: rgb(112 135 231 / 16%);
-    width: 300px;
-    text-align: center;
-    position: absolute;
-    top: 200px;
-    cursor: pointer;
-
+  background-color: rgb(112 135 231 / 16%);
+  width: 300px;
+  text-align: center;
+  position: absolute;
+  top: 200px;
+  cursor: pointer;
 }
 
 .container:hover {
-    box-shadow: 0 0 5px #3254ca;
+  box-shadow: 0 0 5px #3254ca;
 }
 
-
 .art-label {
-    margin-top: 25px;
-    margin-left: 10px;
-    text-align: center;
-    height: 60px;
-    top: 300px;
-    position: absolute;
-
-
-
+  margin-top: 25px;
+  margin-left: 10px;
+  text-align: center;
+  height: 60px;
+  top: 300px;
+  position: absolute;
 }
 
 .close {
-    color: red;
+  color: red;
 }
 
 .art-label div {
-
-    width: 70px;
-    height: 40px;
-    font-size: 14px;
-    line-height: 40px;
-    float: left;
-    margin-left: 20px;
-    cursor: pointer;
-    background-color: rgb(112 135 231 / 16%)
+  width: 70px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 40px;
+  float: left;
+  margin-left: 20px;
+  cursor: pointer;
+  background-color: rgb(112 135 231 / 16%);
 }
 
 .art-label div:hover {
-    box-shadow: 0 0 5px #3254ca;
+  box-shadow: 0 0 5px #3254ca;
 }
 
 input {
-    outline: none;
+  outline: none;
 }
 
 .art-label input {
-    background-color: rgb(112 135 231 / 16%);
-    border-radius: 0%;
-    width: 70px;
-    height: 40px;
-    font-size: 14px;
-    line-height: 40px;
-    float: left;
-    margin-left: 20px;
-
+  background-color: rgb(112 135 231 / 16%);
+  border-radius: 0%;
+  width: 70px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 40px;
+  float: left;
+  margin-left: 20px;
 }
 
 .art-label .art {
-    width: 250px;
-    cursor: pointer;
+  width: 250px;
+  cursor: pointer;
 }
 
-
 #values .header {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 #values .header .category {
-    float: left;
-    margin: 5px;
-    height: 50px;
-    line-height: 50px;
-    font-size: 20px;
-    text-align: center;
-    background-color: #8793c51f;
-    filter: drop-shadow(0px 4px 4px rgba(79, 219, 44, 0.25));
-    cursor: pointer;
+  float: left;
+  margin: 5px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #8793c51f;
+  filter: drop-shadow(0px 4px 4px rgba(79, 219, 44, 0.25));
+  cursor: pointer;
 }
-
 
 #values .header .category:hover {
-    box-shadow: 0 0 5px #3254ca;
+  box-shadow: 0 0 5px #3254ca;
 }
-
 
 #values .artefacts {
-    margin: 10px;
-    background-color: gray;
-    width: 170px;
-    font-size: 15px;
-
+  margin: 10px;
+  background-color: gray;
+  width: 170px;
+  font-size: 15px;
 }
 
-
 #values .artefacts .art {
-    padding: 3px;
+  padding: 3px;
 }
 
 blockwithvalues {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    text-align: center;
-    margin: 20px;
-    display: none;
-    filter: drop-shadow(0px 4px 4px rgba(23, 28, 22, 0.27));
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  margin: 20px;
+  display: none;
+  filter: drop-shadow(0px 4px 4px rgba(23, 28, 22, 0.27));
 }
-
 
 blockwithvalues .value {
-    font-size: 18px;
-    padding-top: 5px;
-
+  font-size: 18px;
+  padding-top: 5px;
 }
-
-
 
 blockwithvalues .buff {
-    background-color: #8080801c;
-    margin: 25px;
+  background-color: #8080801c;
+  margin: 25px;
 }
-
 
 blockwithvalues .debuff {
-    background-color: #8080801c;
-    margin: 25px;
+  background-color: #8080801c;
+  margin: 25px;
 }
-
 
 .TTK {
-    display: none;
-    background-color: #8793c51f;
-    margin: 10px;
-    padding: 10px;
+  display: none;
+  background-color: #8793c51f;
+  margin: 10px;
+  padding: 10px;
 }
 
-
 TTK div {
-    margin-top: 10px;
-    margin-left: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .privedenka {
-    font-size: 20px;
-    margin: 20px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid silver;
-
+  font-size: 20px;
+  margin: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid silver;
 }
 
-
-
-
-
-
-
 .weaponValues .grid {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    margin-top: 20px;
-    font-size: 18px;
-    margin-left: 20px;
-    border-bottom: 1px solid silver;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 20px;
+  font-size: 18px;
+  margin-left: 20px;
+  border-bottom: 1px solid silver;
 }
 
 .labels {
-    padding: 5px;
+  padding: 5px;
 }
-
-
 
 .weaponValues .grid .btn {
-    background: #50639740;
-    border-radius: 0%;
-    width: 80px;
-    height: 40px;
-    font-size: 15px;
-    line-height: 40px;
-    
-
+  background: #50639740;
+  border-radius: 0%;
+  width: 80px;
+  height: 40px;
+  font-size: 15px;
+  line-height: 40px;
 }
-
-
 
 .text-right {
-    text-align: right;
+  text-align: right;
 }
 
-
-
 .privedenka .btn {
-    background: #50639740;
-    border-radius: 0%;
-    width: 70px;
-    height: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 15px;
-    line-height: 40px;
+  background: #50639740;
+  border-radius: 0%;
+  width: 70px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  line-height: 40px;
 }
 
 .labels p {
-    line-height: 30px;
+  line-height: 30px;
 }
-
 
 .timetokillproperty {
-    display: grid;
-    grid-template-columns: 1fr 0fr;
+  display: grid;
+  grid-template-columns: 1fr 0fr;
 }
 
-
 .timetokillproperty .damageToBody {
-    margin: 10px;
-    font-size: 20px;
-    margin-top: 40px;
-    margin-left: 20px;
+  margin: 10px;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 20px;
 }
 
 .timetokillproperty .damageToHead {
-    margin: 10px;
-    margin-top: 40px;
-    margin-left: 20px;
-    font-size: 20px;
+  margin: 10px;
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 20px;
 }
-
-
 
 [selected] {
-    color: green;
+  color: green;
 }
 
-
 .buff p {
-    margin-top: 5px;
-    font-size: 25px;
-
+  margin-top: 5px;
+  font-size: 25px;
 }
 
 .debuff p {
-    margin-top: 5px;
-    font-size: 25px;
-
+  margin-top: 5px;
+  font-size: 25px;
 }
 
 #antishot {
-    width: 150px;
+  width: 150px;
 }
 
-
-
 #tooltip {
-    background-color: #333;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 4px;
-    font-size: 13px;
-  }
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+}
